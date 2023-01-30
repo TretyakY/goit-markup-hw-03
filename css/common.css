@@ -21,9 +21,25 @@
 }
 
 /* reset style*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.img {
+    display: block;
+}
+
 .list {
 list-style: none;
 color: currentColor;
+margin: 0;
+padding: 0;
 }
 
 .link {
@@ -40,6 +56,16 @@ background-color: var(--primary-bg-cl);
 color: var(--primary-txt-cl);
 }
 
+
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
 /* btn styles */
 
 .btn {
@@ -51,10 +77,16 @@ line-height: calc(24/16);
 letter-spacing: 0.04em;
 cursor: pointer;
 border: none;
+display: flex;
 }
 
 .btn-hero { 
-display: flex;
+min-height: 56px;
+min-width: 169px;  
+padding: 16px 32px;
+margin-right: auto;
+margin-left: auto;
+border-radius: 4px; 
 background-color: var(--contrast-bg-cl);
 color: var(--wht-cl);
 }
@@ -66,17 +98,29 @@ color: var(--wht-cl);
 }
 
 .btn-portfolio {
+min-height: 48px;
+/* min-width: 169px;  
+padding: 16px 32px; */
+/* margin-right: auto;
+margin-left: auto; */
+border-radius: 4px; 
 color: var(--accent-txt-cl);
 background-color: var(--secondary-bg-cl);
 }
 
 /* header styles */
+
+.header {
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+
 .header-logo {
 font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24/18);
-display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -103,16 +147,32 @@ font-style: normal;
 color: var(--primary-txt-cl);
 }
 
+.btn-portfolio:last-child {
+    margin-right: 0;
+    }
+    
+.btn-portfolio:first-child {
+    margin-left: 0;
+}
+
+
 /* styles index body */
 .hero-section {
 background-color: var(--accent-bg-cl);
 }
 
 .main-hero-h {
+margin-bottom: 48px;
+margin-left: auto;
+margin-right: auto;
+width: 494px;
 font-weight: 700;
 font-size: 56px;
 line-height: calc(60/56);
 color: var(--wht-cl);
+
+letter-spacing: 0.02em;
+text-align: center;
 }
 
 /* h3*/
@@ -145,13 +205,17 @@ color: var(--primary-txt-cl);
 }
 
 /* styles index footer*/
-.footer-text {
-color:  var(--light-dark-tx);    
+.conteiner-footer {
+width: 264px;
+height: 110px;
 }
+
+
 .footer {
 background-color: var(--accent-bg-cl);
 }
 .footer-logo {
+    margin-bottom: 16px;
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -162,3 +226,7 @@ background-color: var(--accent-bg-cl);
     text-transform: uppercase;
     color: var(--light-wht-txt-cl);
     }
+
+.footer-text {
+color:  var(--light-dark-tx);    
+ }
