@@ -223,12 +223,12 @@ margin-top: calc ( -1 * var(--indent));
 .card-set-item {
     margin-left: var (--indent);
     margin-top: var (--indent);
-    flex-basis: calc ((100% / 3) - var(--indent));
+    width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     outline: 1px solid tomato;
 }
 
 .card-set-item-4 {
-    flex-basis: calc ((100% / 4) - var(--indent));
+    width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     margin-left: var(--indent);
     margin-top: var(--indent);
     outline: 1px solid tomato;
