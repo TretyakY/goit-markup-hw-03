@@ -329,12 +329,7 @@ body {
 
 .teem-container {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.teem-container:last-child {
-  margin-right: 0;
+  align-items: center;
 }
 
 .team-card {
@@ -353,6 +348,7 @@ body {
 }
 .manager{
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .team-text {
@@ -361,6 +357,7 @@ body {
 
 .manager-li {
   margin-bottom: 30px;
+  display: block;
 }
 
 /* styles index footer*/
