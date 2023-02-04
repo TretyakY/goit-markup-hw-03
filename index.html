@@ -39,29 +39,31 @@
               <a class="nav-link link" href="#">Contacts</a>
             </li>
           </ul>
-          <address class="address">
-            <ul class="address-list list">
-              <li>
-                <a class="address-link link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="address-link link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
         </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="add">
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="add">
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
       <!--Hero-->
       <section class="hero-section section">
-        <div class="container">
-          <h1 class="main-hero-h">Effective Solutions for Your Business</h1>
-          <button class="btn btn-hero" type="button">Order Service</button>
+        <div class="container container-for-bg">
+          <div class="container">
+            <h1 class="main-hero-h">Effective Solutions for Your Business</h1>
+            <button class="btn btn-hero" type="button">Order Service</button>
+          </div>
         </div>
       </section>
 
@@ -110,9 +112,8 @@
       <section class="section section-what">
         <div class="container">
           <h2 class="section-titel">What are we doing</h2>
-
-          <ul class="we-list list card-set">
-            <li class="card-set-item">
+          <ul class="we-list list">
+            <li>
               <img
                 src="./images/what-are-we-doing/teamwork.jpg"
                 alt="teamwork"
@@ -120,8 +121,7 @@
                 height="300"
               />
             </li>
-
-            <li class="card-set-item">
+            <li>
               <img
                 src="./images/what-are-we-doing/solutions.jpg"
                 alt="solutions"
@@ -129,8 +129,7 @@
                 height="300"
               />
             </li>
-
-            <li class="card-set-item">
+            <li>
               <img
                 src="./images/what-are-we-doing/inspiring.jpg"
                 alt="inspiring"
@@ -147,77 +146,65 @@
         <h2 class="section-titel">Our Team</h2>
 
         <div class="container teem-container">
-          <ul class="list card-set teem-set">
-            <li class="card-set-item-4">
-              <div class="team-card">
-                <img
-                  class="teem"
-                  src="./images/our-team/mark.jpg"
-                  alt="Mark Guerrero Product Designer"
-                  width="264"
-                  height="260"
-                />
-                <ul class="list manager">
-                  <li class="manager-li">
-                    <h3 class="titel team-h">Mark Guerrero</h3>
-                    <p class="text team-text">Product Designer</p>
-                  </li>
-                </ul>
-              </div>
+          <ul class="list teem-set">
+            <li class="team-card">
+              <img
+                src="./images/our-team/mark.jpg"
+                alt="Mark Guerrero Product Designer"
+                width="264"
+                height="260"
+              />
+              <ul class="list manager">
+                <li>
+                  <h3 class="titel team-h">Mark Guerrero</h3>
+                  <p class="text team-text">Product Designer</p>
+                </li>
+              </ul>
             </li>
 
-            <li class="card-set-item-4">
-              <div class="team-card">
-                <img
-                  class="teem"
-                  src="./images/our-team/tom.jpg"
-                  alt="Tom Ford Frontend Developer"
-                  width="264"
-                  height="260"
-                />
-                <ul class="list manager">
-                  <li class="manager-li">
-                    <h3 class="titel team-h">Tom Ford</h3>
-                    <p class="text team-text">Frontend Developer</p>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-card">
+              <img
+                src="./images/our-team/tom.jpg"
+                alt="Tom Ford Frontend Developer"
+                width="264"
+                height="260"
+              />
+              <ul class="list manager">
+                <li>
+                  <h3 class="titel team-h">Tom Ford</h3>
+                  <p class="text team-text">Frontend Developer</p>
+                </li>
+              </ul>
             </li>
 
-            <li class="card-set-item-4">
-              <div class="team-card">
-                <img
-                  class="teem"
-                  src="./images/our-team/camila.jpg"
-                  alt="Camila Garcia Marketing"
-                  width="264"
-                  height="260"
-                />
-                <ul class="list manager">
-                  <li class="manager-li">
-                    <h3 class="titel team-h">Camila Garcia</h3>
-                    <p class="text team-text">Marketing</p>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-card">
+              <img
+                src="./images/our-team/camila.jpg"
+                alt="Camila Garcia Marketing"
+                width="264"
+                height="260"
+              />
+              <ul class="list manager">
+                <li>
+                  <h3 class="titel team-h">Camila Garcia</h3>
+                  <p class="text team-text">Marketing</p>
+                </li>
+              </ul>
             </li>
 
-            <li class="card-set-item-4">
-              <div class="team-card">
-                <img
-                  class="teem"
-                  src="./images/our-team/daniel.jpg"
-                  alt="Daniel Wilson UI Designer"
-                  width="264"
-                  height="260"
-                />
-                <ul class="list manager">
-                  <li class="manager-li">
-                    <h3 class="titel team-h">Daniel Wilson</h3>
-                    <p class="text team-text">UI Designer</p>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-card">
+              <img
+                src="./images/our-team/daniel.jpg"
+                alt="Daniel Wilson UI Designer"
+                width="264"
+                height="260"
+              />
+              <ul class="list manager">
+                <li>
+                  <h3 class="titel team-h">Daniel Wilson</h3>
+                  <p class="text team-text">UI Designer</p>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -226,7 +213,7 @@
 
     <!--Footer section-->
     <footer class="footer">
-      <div class="conteiner-footer">
+      <div class="conteiner">
         <a class="footer-logo link" href="/"
           ><span class="logo">Web</span>Studio</a
         >
