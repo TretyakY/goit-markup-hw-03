@@ -19,6 +19,8 @@
   --contrast-bg-cl:#4D5AE5;
   --deep-bg-cl: #404BBF;
 
+  --light-line-cl: #E7E9FC;
+
 /* others */
 
   --indent: 24px;
@@ -177,6 +179,10 @@ body {
 }
 /* header styles */
 
+.header {
+border-bottom: 1px solid var(--light-line-cl);
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -317,8 +323,8 @@ margin-left: auto;
 
 .we-list {
   display: flex;
-  gap: 24;
-  justify-content: space-between;
+  gap: 24px;
+  justify-content: center;
 }
 
 /* Team */
@@ -339,8 +345,8 @@ margin-left: auto;
 }
 .teem-set {
     display: flex;
-    gap: 24;
-    justify-content: space-between;
+    gap: 24px;
+    justify-content: center;
     width: 100%;
 }
 
@@ -419,16 +425,14 @@ margin-left: auto;
   padding-bottom: 32px;
   padding-left: 16px;
   padding-top: 32px;
-
 }
 
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  justify-content: space-between;
+  justify-content: center;
 }
-
 
 .text-set {
   margin-top: 8px;
